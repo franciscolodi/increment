@@ -1,3 +1,7 @@
 python-telegram-bot==13.7
 python-dotenv
-openai
+requests==2.32.3
+pytz==2024.1          # para manejar timezone America/Santiago
+psycopg2-binary==2.9.9  # si usas PostgreSQL/Supabase
+
+
